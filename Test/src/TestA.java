@@ -1,18 +1,18 @@
 
 public class TestA {
 
-	private String text;
+	private int num;
 
-	public TestA(String text) {
-		this.text = text;
+	public TestA(int num) {
+		this.num = num;
 	}
 	
-	public String getText() {
-		return text;
+	public int getNum() {
+		return num;
 	}
 	
-	public void setText(String text) {
-		this.text = text;
+	public void setNum(int num) {
+		this.num = num;
 	}
 
 }
